@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        body{       
+            font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas
+            cm,mm,in,px,pt,pc
+
+            Medidas Relativas
+            em,ex,rem.vw,vh,%
+            */
+            font-size: 1em;
+            /*lighter normal bold bolder*/
+            /*width = largura, height = altura, weight = peso*/
+        }
+        h1{
+            /*font-family: 'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+
+            shorthand
+            font-style -> font-weight -> font-size -> font-family
+            */
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+        h2{
+            font: bold 2em 'Work Sans', sans-serif;
+        }
+    </style>
+</head>                             
+<body>
+    <h1>Trabalhando com fontes em CSS</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium quasi repellendus obcaecati labore cupiditate non, corrupti repellat quas ea unde officiis blanditiis eius dicta aliquid error ipsam? Sequi, ab placeat!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam tenetur temporibus veritatis nisi sed tempora magnam rem, libero cumque ipsum culpa corporis ducimus quae error itaque voluptas molestiae doloribus earum!</p>
+    <h2>Subtítulo</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, expedita? Doloribus, iusto! Repudiandae, tempora necessitatibus. Repudiandae, libero eos commodi facere sunt tempore illo optio adipisci eius sit fugit. Delectus, amet? Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque illo dolore accusantium possimus deserunt qui dolores et dolorem minus sunt? Recusandae, nulla. Est rerum atque repellendus enim quaerat, doloremque in.</p>
+</body>
+</html>

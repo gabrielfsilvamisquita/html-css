@@ -1,0 +1,34 @@
+@charset 'UTF-8';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+/*
+    Em HTML é id = em CSS é # (só pode um)
+    EMm HTML é class = em CSS é . (pode vários)
+*/
+body{
+    background-image: linear-gradient(to right,#C0FACE,#ACE0B8,#8FBA99);
+    font-family: 'Roboto', Arial, sans-serif;
+}
+h1{
+    color: #2D3B30;
+    font-weight: 450;
+}
+h1#principal{
+    font-size: 3em;
+    text-align: center;
+    background-color: #5E7A65;
+    color: #fff;
+    border-radius: 10px;
+}
+h2{
+    color: #2D3B30;
+    font-weight: 400;
+}
+.basico{
+    color: #56aa68;
+}
+.intermediario{
+    color: #aaa456;
+}
+.avancado{
+    color: #aa5656;
+}

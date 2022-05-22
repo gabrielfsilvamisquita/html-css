@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Resumo</title>
+</head>
+<body>
+  <h1>Resumo</h1>
+  <h2>Listas</h2> 
+  <p>Podemos criar listas ordenadas usando a tag &lt;ol&gt; e listas não ordenadas usando a tag &lt;ul&gt;. Cada item da lista está dentro de uma tag &lt;li&gt;</p>
+  <ol>
+      <li>Primeiro</li>
+      <li>Segundo</li>
+      <li>Terceiro</li>
+  </ol> 
+  <ul>
+      <li>Maçã</li>
+      <li>Uva</li>
+      <li>Banana</li>
+  </ul>
+  
+  <h2>Ancoragem</h2>
+  <p>Esta é uma ancoragem para um <a href="pag002.html" rel="next" target="_self">link interno</a>, e esta para um <a href="https://www.youtube.com/" rel="external" target="_blank">link externo</a>.</p>
+  <p>Este é um link de <a href="download/imagens.rar" type="application/zip">download</a></p>
+  
+  <h2>Imagens flexíveis</h2>
+  <p>Esta é uma imagem flexível, aumente e diminua a tela do seu navegador.</p>
+  <picture>
+    <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+    <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+    <img src="imagens/foto-g.png" alt="imagem flexível">
+  </picture>
+  
+  <h2>Áudio</h2>
+  <audio preload="metadata" controls loop>
+      <source src="midia/music.mp3" type="audio/mpeg">
+      <source src="midia/music.ogg" type="audio/ogg">
+      <source src="midia/music.wav" type="">
+      <p>Seu navegador não suporta áudio</p>
+  </audio>
+
+  <h2>Vídeo</h2>
+  <h3>Vídeo interno</h2>
+  <video width="550" controls poster="imagens/limoes-capa.png">
+      <source src="midia/video/meu-video.mp4" type="video/mpeg">
+      <source src="midia/video/meu-video.m4v" type="video/mpeg">
+      <source src="midia/video/meu-video.ogv" type="video/ogv">
+      <source src="midia/video/meu-video.webm" type="video/webm">
+      <p>Seu navegador não suporta vídeo</p>
+  </video>
+  <h3>Vídeo externo</h2>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/Y3I9NFlUOQU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>

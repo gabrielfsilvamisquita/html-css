@@ -1,0 +1,14 @@
+body{
+    background-image: linear-gradient(to right,#79B2F2,#73A8E6,#6796CC,#537AA6);
+    font-family: Arial, Helvetica, sans-serif
+}
+h1{
+    font-size: 3.5em;
+    text-align: center;
+}
+h2{
+    font-size: 2em;
+}
+p{
+    text-indent: 1em;
+}
