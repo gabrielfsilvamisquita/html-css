@@ -1,2 +1,2 @@
 # html-css
- Toda minha Jornada de Estudos com o canal Curso em Vídeo
+ Esses são os exercícios básicos de HTML e CSS do canal Curso em Vídeo, onde iniciei minha jornada...
